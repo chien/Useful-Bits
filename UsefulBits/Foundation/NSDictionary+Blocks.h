@@ -19,9 +19,6 @@
 
 - (void)withValueForKey:(id)key meetingCondition:(BOOL (^) (id value))condition do:(void (^) (id value))action default:(void (^) (void))default_action;
 
-- (void)withValueForKey:(id)key ofClass:(Class)class do:(void (^) (id value))action;
-- (void)withValueForKey:(id)key ofClass:(Class)class do:(void (^) (id value))action default:(void (^) (void))default_action;
-
 - (void)withValueForKey:(id)key do:(void (^) (id value))action;
 - (void)withValueForKey:(id)key do:(void (^) (id value))action default:(void (^) (void))default_action;
 
